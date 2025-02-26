@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HeaderFiles\LeetCodeProblems.h">
+    <ClInclude Include="Source\HeaderFiles\LeetCodeProblems.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HeaderFiles\EdabitProblems.h">
+    <ClInclude Include="Source\HeaderFiles\EdabitProblems.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Problems.txt">
+    <ClInclude Include="Source\Problems.txt">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

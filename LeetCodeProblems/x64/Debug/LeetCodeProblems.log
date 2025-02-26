@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(14,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source/main.cpp')
+  
+  LeetCodeProblems.vcxproj -> C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\x64\Debug\LeetCodeProblems.exe
