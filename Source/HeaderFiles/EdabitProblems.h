@@ -66,7 +66,6 @@ unsigned int warOfNumbers(vector<int>lst) {
 		}
 		else
 		{
-
 			oddNumbers.push_back(lst[i]);
 		}
 	}

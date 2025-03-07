@@ -4,9 +4,8 @@
 
 int main() {
 	
-	vector<string> operations = { "++X","++X","X++" };
-
-	int x = finalValueAfterOperations(operations);
 	
+	int test = subtractProductAndSum(4421);
+
 	cin.get();
 }
