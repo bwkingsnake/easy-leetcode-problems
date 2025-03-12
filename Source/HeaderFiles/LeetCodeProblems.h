@@ -110,3 +110,46 @@ int subtractProductAndSum(int n) {
 
     return productOfDigits - sum;
 }
+
+//problem 6 Number of Good Pairs
+
+int numIdenticalPairs(vector<int>& nums) {
+
+    int validPairs = 0;
+
+    for (int i = 0; i < nums.size();i++) {
+        for (int j = i + 1 ; j < nums.size(); j++) {
+
+            if (nums[i] == nums[j]) {
+             
+                validPairs += 1;
+            }
+        }
+    }
+
+    log(validPairs);
+
+    return validPairs;
+}
+
+//problem 7 How Many Numbers Are Smaller Than the Current Number
+
+vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
+
+    vector<int> sortedNums = {};
+
+    int count = 0;
+
+    for (int i = 0; i < nums.size(); i++) {
+        for (int j = 0; j < nums.size(); j++) {
+
+            if (nums[j] < nums[i]) {
+                count++;
+            }
+        }
+        sortedNums.push_back(count);
+        count = 0;
+    }
+
+    return sortedNums;
+}
