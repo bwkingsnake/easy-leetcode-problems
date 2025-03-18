@@ -153,3 +153,67 @@ vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
 
     return sortedNums;
 }
+
+//problem 8 Check If Two String Arrays are Equivalent
+
+bool arrayStringsAreEqual(vector<string>& wordList1, vector<string>& wordList2) {
+
+    string newWord1 = "";
+    string newWord2 = "";
+
+    if (wordList1.size() == 1) {
+        newWord1 = wordList1[0];
+    }
+    else {
+        for (int i = 0; i < wordList1.size();i++) {
+            string wordCopy = wordList1[i];
+            newWord1 = newWord1 + wordCopy;
+        }
+    }
+
+    if (wordList2.size() == 1) {
+        newWord2 = wordList2[0];
+    }
+    else {
+        for (int i = 0; i < wordList2.size();i++) {
+            string wordCopy = wordList2[i];
+            newWord2 = newWord2 + wordCopy;
+        }
+    }
+
+    if (newWord1 == newWord2) {
+        log("true");
+        return true;
+    }
+    else {
+        log("false");
+        return false;
+    }
+}
+
+//problem 9, two sum
+
+vector<int> twoSum(vector<int>& nums, int target) {
+
+    vector<int> indicies = {};
+    bool targetFound = false;
+
+    for (int i = 0; i < nums.size(); i++) {
+        for (int j = i + 1; j < nums.size(); j++) {
+
+            if (nums[i] + nums[j] == target) {
+
+                indicies.push_back(i);
+                indicies.push_back(j);
+
+                targetFound = true;
+                break;
+            }
+            if (targetFound == true) {
+                break;
+            }
+        }
+    }
+    
+    return indicies;
+}

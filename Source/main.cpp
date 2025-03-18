@@ -3,9 +3,10 @@
 
 int main() {
 	
-	vector<int> nums = { 7,7,7,7 };
-	
-	vector<int> outPut = smallerNumbersThanCurrent(nums);
+	vector<int> nums = { 2,7,11,15 };
+	int target = 26;
+
+	vector<int> outPut = twoSum(nums, target);
 
 	for (int i = 0; i < outPut.size(); i++) {
 		log(outPut[i]);
