@@ -3,14 +3,9 @@
 
 int main() {
 	
-	vector<int> nums = { 2,7,11,15 };
-	int target = 26;
+	vector<string> sentence = { "alice and bob love leetcode", "i think so too", "this is great thanks very much" };
 
-	vector<int> outPut = twoSum(nums, target);
-
-	for (int i = 0; i < outPut.size(); i++) {
-		log(outPut[i]);
-	}
+	int outPut = mostWordsFound(sentence);
 
 	cin.get();
 

@@ -217,3 +217,31 @@ vector<int> twoSum(vector<int>& nums, int target) {
     
     return indicies;
 }
+
+//problem 10 Running Sum of 1d Array
+
+vector<int> runningSum(vector<int>& nums) {
+
+    vector<int> outPut = {};
+    int numCopy = 0;
+
+	for (int i = 0; i < nums.size(); i++) {
+		numCopy += nums[i];
+		outPut.push_back(numCopy);
+	}
+
+    return outPut;
+}
+
+//problem 11 Maximum Number of Words Found in Sentences
+
+int mostWordsFound(vector<string>& sentences) {
+
+    int output = 0;
+    for (int i = 0; i < sentences.size(); i++) {
+		log(sentences[i]);
+    }
+   
+
+    return output;
+}
