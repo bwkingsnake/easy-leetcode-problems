@@ -1,0 +1,49 @@
+﻿  main.cpp
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(101,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source/main.cpp')
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(107,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source/main.cpp')
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(7,6): error C2601: 'isEvenOrOdd': local function definitions are illegal
+  (compiling source file 'Source/main.cpp')
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(12,6): error C2601: 'isPalindrome': local function definitions are illegal
+  (compiling source file 'Source/main.cpp')
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(29,8): error C2601: 'longBurp': local function definitions are illegal
+  (compiling source file 'Source/main.cpp')
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(42,5): error C2601: 'vectorSum': local function definitions are illegal
+  (compiling source file 'Source/main.cpp')
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(51,14): error C2601: 'warOfNumbers': local function definitions are illegal
+  (compiling source file 'Source/main.cpp')
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(86,5): error C2601: 'fibonacci': local function definitions are illegal
+  (compiling source file 'Source/main.cpp')
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\EdabitProblems.h(101,8): error C2601: 'moveCharacters': local function definitions are illegal
+  (compiling source file 'Source/main.cpp')
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\main.cpp(4,5): error C2601: 'main': local function definitions are illegal
+      C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47):
+      this line contains a '{' which has not yet been matched
+  
+C:\Users\bwkin\OneDrive\Desktop\Programmer socks\CPP\LeetCodeProblems\Source\HeaderFiles\LeetCodeProblems.h(238,47): error C1075: '{': no matching token found
+  (compiling source file 'Source/main.cpp')
+  

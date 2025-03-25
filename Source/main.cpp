@@ -3,7 +3,17 @@
 
 int main() {
 	
-	vector<string> sentence = { "alice and bob love leetcode", "i think so too", "this is great thanks very much" };
+	vector<string> sentence = {
+		"w jrpihe zsyqn l dxchifbxlasaehj",
+		"nmmfrwyl jscqyxk a xfibiooix xolyqfdspkliyejsnksfewbjom",
+		"xnleojowaxwpyogyrayfgyuzhgtdzrsyococuqexggigtberizdzlyrdsfvryiynhg",
+		"krpwiazoulcixkkeyogizvicdkbrsiiuhizhkxdpssynfzuigvcbovm",
+		"rgmz rgztiup wqnvbucfqcyjivvoeedyxvjsmtqwpqpxmzdupfyfeewxegrlbjtsjkusyektigr",
+		"o lgsbechr lqcgfiat pkqdutzrq iveyv iqzgvyddyoqqmqerbmkxlbtmdtkinlk",
+		"hrvh efqvjilibdqxjlpmanmogiossjyxepotezo",
+		"qstd zui nbbohtuk",
+		"qsdrerdzjvhxjqchvuewevyzlkyydpeeblpc"
+	};
 
 	int outPut = mostWordsFound(sentence);
 

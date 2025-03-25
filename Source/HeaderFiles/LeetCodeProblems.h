@@ -29,7 +29,7 @@ vector<double> convertTemperature(double celsius) {
 
 int finalValueAfterOperations(vector<string>& operations) {
     int x = 0;
-    
+
     for (int i = 0; i < operations.size(); i++) {
         if (operations[i] == "++X" || operations[i] == "X++") {
             x = x + 1;
@@ -56,7 +56,7 @@ vector<string> fizzBuzz(int n) {
         }
         else {
             fizzBuzz.insert(fizzBuzz.begin(), to_string(n));
-        }       
+        }
         n = n - 1;
     }
     return fizzBuzz;
@@ -67,7 +67,7 @@ vector<string> fizzBuzz(int n) {
 string defangIPaddr(string address) {
 
     string defangedIp = "";
-
+     
     for (int i = 0; i < address.size(); i++) {
         log(address[i]);
         if (address[i] == '.') {
@@ -87,15 +87,15 @@ string defangIPaddr(string address) {
 //problem 5 Subtract the Product and Sum of Digits of an Integer
 
 int subtractProductAndSum(int n) {
-  
+
     vector<int> removedNumbers = {};
 
-    while (n > 0){
+    while (n > 0) {
         int removedNum = n % 10;
         removedNumbers.push_back(removedNum);
         n = n / 10;
     }
-    
+
     int sum = 0;
 
     for (int i = removedNumbers.size() - 1;i > -1;i--) {
@@ -103,7 +103,7 @@ int subtractProductAndSum(int n) {
     }
 
     int productOfDigits = (removedNumbers[removedNumbers.size() - 1]);
-    
+
     for (int i = removedNumbers.size() - 2;i > -1;i--) {
         productOfDigits = productOfDigits * removedNumbers[i];
     }
@@ -118,10 +118,10 @@ int numIdenticalPairs(vector<int>& nums) {
     int validPairs = 0;
 
     for (int i = 0; i < nums.size();i++) {
-        for (int j = i + 1 ; j < nums.size(); j++) {
+        for (int j = i + 1; j < nums.size(); j++) {
 
             if (nums[i] == nums[j]) {
-             
+
                 validPairs += 1;
             }
         }
@@ -214,7 +214,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
             }
         }
     }
-    
+
     return indicies;
 }
 
@@ -225,10 +225,10 @@ vector<int> runningSum(vector<int>& nums) {
     vector<int> outPut = {};
     int numCopy = 0;
 
-	for (int i = 0; i < nums.size(); i++) {
-		numCopy += nums[i];
-		outPut.push_back(numCopy);
-	}
+    for (int i = 0; i < nums.size(); i++) {
+        numCopy += nums[i];
+        outPut.push_back(numCopy);
+    }
 
     return outPut;
 }
@@ -237,11 +237,27 @@ vector<int> runningSum(vector<int>& nums) {
 
 int mostWordsFound(vector<string>& sentences) {
 
+    int totalWords = 1;
     int output = 0;
-    for (int i = 0; i < sentences.size(); i++) {
-		log(sentences[i]);
-    }
-   
 
+    for (int i = 0; i < sentences.size(); i++) {
+
+        log(sentences[i]);
+        totalWords = 1;
+
+        string sentenceCopy = sentences[i];
+        
+        for (int j = 0;j < sentenceCopy.size(); j++) {
+            if (sentenceCopy[j] == ' ') {
+                totalWords++;
+                log(totalWords);
+            }
+        }
+       
+        if (totalWords >= output) {
+            output = totalWords;
+        }
+        
+    }
     return output;
 }
